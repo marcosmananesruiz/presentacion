@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import ttk, PhotoImage, BitmapImage
+from tkinter import ttk
 
 presentation = tk.Tk()
 presentation.title("Presentacion AW - Marcos Mañanes Ruiz")
@@ -138,4 +138,6 @@ txtTitulo2 = ttk.Label(frmAppWeb, text="YOUTUBE", font=100, background="#FF0000"
 txtTitulo2.grid(column=0,row=1, pady=50)
 txtInfoWeb = ttk.Label(frmAppWeb, text="YouTube es una aplicacion web diseñada con lenguajes como HTML implementando css, JavaScript y herramientas de Python\nEsta aplicacion yo la uso mucho tanto pot ocio tanto por aprendizaje.\nCon YouTube he aprendido multiples cosas como algunos lenguajes de Programacion o detalles curiosos de canales sobre Ciencia,\npero tambien me gusta ver videos para reirme o mantenerme entretenido durante alguna tarea\ntediosa.")
 txtInfoWeb.grid(column=1,row=0,padx=20)
+
+txtLink = ttk.Label(frmAppWeb, text="https://creativewhisper.es/lenguaje/con-que-lenguaje-de-programacion-se-hizo-youtube/")
 presentation.mainloop()
